@@ -1,43 +1,53 @@
 import type { Config } from './types';
 
 export default {
+  name: 'CEE NEXUS',
+  shortName: 'CEE NEXUS',
+  description: 'Medical Entrance Preparation Platform for Nepalese Students',
+  themeColor: '#0ea5e9',
+  backgroundColor: '#ffffff',
+  origin: 'https://ceenexus.blogspot.com',
   id: '/',
-  name: 'My Blog',
-  shortName: 'My Blog',
-  description: 'My blog description goes here...',
   direction: 'auto',
   language: 'en-US',
-  backgroundColor: '#fff',
-  themeColor: '#fff',
   display: 'standalone',
   orientation: 'natural',
   scope: '/',
   startUrl: '/?utm_source=homescreen',
   appleStatusBarStyle: 'black-translucent',
   preferRelatedApplications: false,
-  shortcuts: [
-    {
-      name: 'Shortcut 1',
-      shortName: 'Shortcut 1',
-      description: 'Shortcut 1 description goes here...',
-      url: '/search/label/shortcut-1?utm_source=homescreen',
-    },
-    {
-      name: 'Shortcut 2',
-      shortName: 'Shortcut 2',
-      description: 'Shortcut 2 description goes here...',
-      url: '/search/label/shortcut-2?utm_source=homescreen',
-    },
-  ],
   pwa: {
     logs: true,
-    // OneSignal is only available if you are using cloudflare workers
-    oneSignalEnabled: true, // To enable OneSignal, set this to true
+    oneSignalEnabled: false,
     oneSignalConfig: {
-      appId: '139cabaa-f06b-4e12-a435-36db5a494667', // Replace with your OneSignal App Id
+      appId: '',
       allowLocalhostAsSecureOrigin: true,
     },
   },
-  // Please replace with your blog url if you are using CDN (JsDelivr)
-  origin: 'https://www.c08plus.com',
+  shortcuts: [
+    {
+      name: 'Physics Notes',
+      shortName: 'Physics',
+      description: 'Quick access to Physics notes',
+      url: '/search/label/Physics?utm_source=homescreen',
+    },
+    {
+      name: 'Chemistry Notes',
+      shortName: 'Chemistry',
+      description: 'Quick access to Chemistry notes',
+      url: '/search/label/Chemistry?utm_source=homescreen',
+    },
+    {
+      name: 'Biology Notes',
+      shortName: 'Biology',
+      description: 'Quick access to Biology notes',
+      url: '/search/label/Biology?utm_source=homescreen',
+    },
+    {
+      name: 'Practice MCQs',
+      shortName: 'MCQs',
+      description: 'Practice medical entrance MCQs',
+      url: '/search/label/MCQ?utm_source=homescreen',
+    },
+  ],
 } satisfies Config;
