@@ -1,8 +1,8 @@
 {
-  "name": "My Blog",
+  "name": "CEE NEXUS",
   "id": "/",
-  "short_name": "My Blog",
-  "description": "My blog description goes here...",
+  "short_name": "CEE NEXUS",
+  "description": "Medical Entrance Preparation Platform for Nepalese Students",
   "dir": "auto",
   "lang": "en-US",
   "orientation": "natural",
@@ -10,8 +10,8 @@
   "scope": "/",
   "display": "standalone",
   "prefer_related_applications": false,
-  "background_color": "#fff",
-  "theme_color": "#fff",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
   "icons": [
     {
       "src": "icons/favicon.ico",
@@ -115,10 +115,10 @@
   ],
   "shortcuts": [
     {
-      "name": "Shortcut 1",
-      "short_name": "Shortcut 1",
-      "description": "Shortcut 1 description goes here...",
-      "url": "/search/label/shortcut-1?utm_source=homescreen",
+      "name": "Physics Notes",
+      "short_name": "Physics",
+      "description": "Quick access to Physics notes",
+      "url": "/search/label/Physics?utm_source=homescreen",
       "icons": [
         {
           "src": "icons/android-chrome-96x96.png",
@@ -127,10 +127,34 @@
       ]
     },
     {
-      "name": "Shortcut 2",
-      "short_name": "Shortcut 2",
-      "description": "Shortcut 2 description goes here...",
-      "url": "/search/label/shortcut-2?utm_source=homescreen",
+      "name": "Chemistry Notes",
+      "short_name": "Chemistry",
+      "description": "Quick access to Chemistry notes",
+      "url": "/search/label/Chemistry?utm_source=homescreen",
+      "icons": [
+        {
+          "src": "icons/android-chrome-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Biology Notes",
+      "short_name": "Biology",
+      "description": "Quick access to Biology notes",
+      "url": "/search/label/Biology?utm_source=homescreen",
+      "icons": [
+        {
+          "src": "icons/android-chrome-96x96.png",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Practice MCQs",
+      "short_name": "MCQs",
+      "description": "Practice medical entrance MCQs",
+      "url": "/search/label/MCQ?utm_source=homescreen",
       "icons": [
         {
           "src": "icons/android-chrome-96x96.png",
